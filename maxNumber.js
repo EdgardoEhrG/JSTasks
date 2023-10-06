@@ -5,7 +5,7 @@
  */
 
 const getMaxNumber = (numbers) => {
-  // ------ BAD
+  // BAD
 
   let maxNumber;
   let currentNumber;
@@ -22,7 +22,7 @@ const getMaxNumber = (numbers) => {
 
   return maxNumber;
 
-  // ------ SO-SO
+  // SO-SO
 
   let max = numbers[0];
 
@@ -34,7 +34,7 @@ const getMaxNumber = (numbers) => {
 
   return max;
 
-  // ------ THE BEST
+  // THE BEST
 
   return Math.max(numbers);
 };

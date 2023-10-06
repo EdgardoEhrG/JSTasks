@@ -6,7 +6,7 @@
  */
 
 const getCountOfOccurences = (str, char) => {
-  // ------ BAD
+  // BAD
 
   const strArr = [...str];
   const occurenceArr = [];
@@ -19,7 +19,7 @@ const getCountOfOccurences = (str, char) => {
 
   return occurenceArr.length;
 
-  // ------ SO-SO
+  // SO-SO
 
   let count = 0;
 
@@ -31,7 +31,7 @@ const getCountOfOccurences = (str, char) => {
 
   return count;
 
-  // ------ THE BEST
+  // THE BEST
 
   return str.split(char).length - 1;
 };
@@ -39,5 +39,4 @@ const getCountOfOccurences = (str, char) => {
 const res1 = getCountOfOccurences("Lalala lend", "l");
 const res2 = getCountOfOccurences("Hey! I think about it", "a");
 
-console.log(res1);
-console.log(res2);
+console.log(res1, res2);
