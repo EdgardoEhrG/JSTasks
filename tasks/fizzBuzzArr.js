@@ -4,7 +4,7 @@
  * @returns {(string|number)[]} - array with results
  */
 
-const getFizzBuzzArr = (arrLength) => {
+export const getFizzBuzzArr = (arrLength) => {
   const numbersArr = [];
 
   for (let i = 1; i <= arrLength; i++) {
@@ -21,7 +21,3 @@ const getFizzBuzzArr = (arrLength) => {
 
   return numbersArr;
 };
-
-const res = getFizzBuzzArr(100);
-
-console.log(res);
