@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "vitest": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }

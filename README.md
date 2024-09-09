@@ -1,6 +1,8 @@
-# JS Tasks
+# JS / TS Tasks
 
 > JS
+
+> TS
 
 > Vitest
 
