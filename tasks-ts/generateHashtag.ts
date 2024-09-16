@@ -14,8 +14,9 @@ const generateHashtag = (str: string): string | boolean => {
   return `#${hashTag}`;
 };
 
-const res1 = generateHashtag("TypeScript is awesome language");
-console.log(res1);
+// ----------------------------------------------------- CHECK
 
+const res1 = generateHashtag("TypeScript is awesome language");
 const res2 = generateHashtag("");
-console.log(res2);
+
+console.log(res1, res2);

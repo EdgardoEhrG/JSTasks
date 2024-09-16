@@ -25,14 +25,12 @@ const getLikesInfo = (accNames) => {
   }
 };
 
+// ----------------------------------------------------- CHECK
+
 const res1 = getLikesInfo([]);
 const res2 = getLikesInfo(["Tom"]);
 const res3 = getLikesInfo(["Tom", "James"]);
 const res4 = getLikesInfo(["Tom", "James", "Paolo"]);
 const res5 = getLikesInfo(["Tom", "James", "Paolo", "Hank", "Thomas", "Jack"]);
 
-console.log(res1);
-console.log(res2);
-console.log(res3);
-console.log(res4);
-console.log(res5);
+console.log(res1, res2, res3, res4, res5);

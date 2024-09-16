@@ -44,5 +44,7 @@ const analyzeCarMileage = (cars: Car[]): AnalysisData | string => {
   };
 };
 
+// ----------------------------------------------------- CHECK
+
 const res = analyzeCarMileage(cars);
 console.log(res);

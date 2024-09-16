@@ -20,6 +20,7 @@ const sumOfEvenSquares = (numbers) => {
   return evenNumbers;
 };
 
-const res = sumOfEvenSquares([1, 2, 3, 4, 5]);
+// ----------------------------------------------------- CHECK
 
+const res = sumOfEvenSquares([1, 2, 3, 4, 5]);
 console.log(res);

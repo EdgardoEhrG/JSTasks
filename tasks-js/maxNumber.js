@@ -45,3 +45,8 @@ export const getMaxNumber = (numbers) => {
 
   return max;
 };
+
+// ----------------------------------------------------- CHECK
+
+const res = getMaxNumber([7, 8, 9, 39, 44]);
+console.log(res);

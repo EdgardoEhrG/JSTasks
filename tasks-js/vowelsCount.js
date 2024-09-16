@@ -20,6 +20,7 @@ const getVowelsCountByStr = (str) => {
   return vowelsCount.length;
 };
 
-const res = getVowelsCountByStr("One Two Three Four");
+// ----------------------------------------------------- CHECK
 
+const res = getVowelsCountByStr("One Two Three Four");
 console.log(res);

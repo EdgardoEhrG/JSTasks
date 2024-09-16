@@ -25,10 +25,10 @@ const formatPhoneNumber = (numbers) => {
   }
 };
 
+// ----------------------------------------------------- CHECK
+
 const res1 = formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 10, 12]);
 const res2 = formatPhoneNumber([7, 9, 1, 2, 5, 6, 7, 8, 9, 0, 1]);
 const res3 = formatPhoneNumber([1, 2, 4]);
 
-console.log(res1);
-console.log(res2);
-console.log(res3);
+console.log(res1, res2, res3);

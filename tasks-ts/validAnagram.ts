@@ -19,8 +19,9 @@ const validAnagram = (str1: string, str2: string): boolean => {
   return false;
 };
 
+// ----------------------------------------------------- CHECK
+
 const result1: boolean = validAnagram("Star", "Satr");
 const result2: boolean = validAnagram("World", "Satr");
 
-console.log(result1);
-console.log(result2);
+console.log(result1, result2);

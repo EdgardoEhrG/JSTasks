@@ -21,3 +21,8 @@ export const getFizzBuzzArr = (arrLength) => {
 
   return numbersArr;
 };
+
+// ----------------------------------------------------- CHECK
+
+const res = getFizzBuzzArr(8);
+console.log(res);

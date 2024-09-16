@@ -14,8 +14,9 @@ const getMissingNumber = (nums) => {
   }
 };
 
+// ----------------------------------------------------- CHECK
+
 const res1 = getMissingNumber([1, 2, 3, 5, 6, 7, 8, 9, 10]);
 const res2 = getMissingNumber([1, 2, 3, 4, 5, 6, 8, 9, 10].reverse());
 
-console.log(res1);
-console.log(res2);
+console.log(res1, res2);

@@ -8,6 +8,8 @@ const getDataWithoutDuplicates = (data) => {
   return [...new Set(data)];
 };
 
+// ----------------------------------------------------- CHECK
+
 const res1 = getDataWithoutDuplicates([
   "Item1",
   "Item2",
@@ -16,10 +18,8 @@ const res1 = getDataWithoutDuplicates([
   "Item5",
   "Item2",
 ]);
-
 const res2 = getDataWithoutDuplicates([
   1, 3, 6, 7, 3, 8, 1, 5, 3, 7, 8, 9, 2, 1,
 ]);
 
-console.log(res1);
-console.log(res2);
+console.log(res1, res2);

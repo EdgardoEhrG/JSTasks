@@ -25,6 +25,7 @@ const calculateTotalSalesWithTax = (
   return totalSum + totalSum * (tax / 100);
 };
 
-const res = calculateTotalSalesWithTax(data, 8);
+// ----------------------------------------------------- CHECK
 
+const res = calculateTotalSalesWithTax(data, 8);
 console.log(res);

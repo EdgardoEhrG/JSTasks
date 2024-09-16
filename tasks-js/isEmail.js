@@ -18,8 +18,9 @@ const isEmail = (email) => {
   return true;
 };
 
+// ----------------------------------------------------- CHECK
+
 const res1 = isEmail("test@gmail.com");
 const res2 = isEmail("testgmail.com");
 
-console.log(res1);
-console.log(res2);
+console.log(res1, res2);
