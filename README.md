@@ -11,3 +11,5 @@
 - [ ] Scripts
 - [ ] Docs
 - [ ] Testing
+- [ ] Time complexity
+- [ ] Sorting
